@@ -44,4 +44,4 @@ Popup de tarefas
 ## 👨‍💻 Autor
 
 Feito por Gustavo Barbosa para o Bootcamp II.
-Meu GitHub: https://github.com/gustavob63
+Meu GitHub: https://github.com/GustwvoB
