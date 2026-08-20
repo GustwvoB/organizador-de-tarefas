@@ -1,15 +1,14 @@
-# 📝 Organizador de Tarefas - Extensão Chrome
+# Organizador de Tarefas - Extensão Chrome
 
-Uma extensão para organizar suas tarefas
-diretamente no navegador.  
+Uma extensão para organizar suas tarefas diretamente no navegador.  
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Adicionar novas tarefas  
 - Marcar tarefas como concluídas  
 - Remover tarefas  
 - Interface leve e intuitiva  
 
-## 📦 Instalação
+## Instalação
 1. Baixe ou clone este repositório:
    ```bash
    git clone https://github.com/gustavob63/organizador-de-tarefas.git
@@ -22,9 +21,9 @@ diretamente no navegador.
 
 5. Selecione a pasta do projeto (Desafio I).
 
-🎉 Pronto! A extensão estará disponível na barra do Chrome.
+Pronto! A extensão estará disponível na barra do Chrome.
 
-## 🖼️ Screenshots
+## Screenshots
  
 Ícone da extensão
 
@@ -34,14 +33,14 @@ Popup de tarefas
 
 ![popup da extensão](image-1.png)
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS
 - JavaScript
 - Manifest V3 (Chrome Extensions API)
 
-## 👨‍💻 Autor
+## Autor
 
 Feito por Gustavo Barbosa para o Bootcamp II.
 Meu GitHub: https://github.com/GustwvoB
