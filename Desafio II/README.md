@@ -1,17 +1,17 @@
-## 🧩 Entrega II — Organizador de Tarefas (Containerização + CI)
+## Entrega II — Organizador de Tarefas (Containerização + CI)
 
 Este repositório contém a segunda entrega do projeto Organizador de Tarefas, com foco em containerização com Docker Compose e integração contínua com GitHub Actions.
 
 A base do projeto é a extensão do Chrome desenvolvida na Entrega I, agora empacotada, testada automaticamente e executada em ambiente conteinerizado.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Node.js 20
 - Docker e Docker Compose
 - Playwright (Chromium)
 - GitHub Actions (CI/CD)
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `Dockerfile` → Cria o ambiente de build e teste da extensão
 
@@ -25,8 +25,8 @@ A base do projeto é a extensão do Chrome desenvolvida na Entrega I, agora empa
 
 - `manifest.json`, `src/`, `icons/` → Arquivos da extensão do Chrome
 
-## 🧩 Como Executar o Projeto Localmente
-## 🧰 1. Instalar dependências locais (opcional)
+## Como Executar o Projeto Localmente
+## 1. Instalar dependências locais (opcional)
 
 - Caso queira testar fora do container:
 
@@ -35,7 +35,7 @@ npx playwright install --with-deps chromium
 npm run build
 npm run test:e2e
 
-## 🐳 2. Rodar via Docker Compose (recomendado)
+## 2. Rodar via Docker Compose (recomendado)
 
 - Este método simula o ambiente usado no CI do GitHub.
 
@@ -47,7 +47,7 @@ docker compose run --rm tests
 
 `playwright-report/`
 
-## 🧾 Como Entregar no GitHub
+## Como Entregar no GitHub
 
 - Crie um repositório público com o nome do projeto (ex: Organizador-de-Tarefas).
 
@@ -61,7 +61,7 @@ docker compose run --rm tests
 
 - O relatório de testes e o .zip da extensão serão gerados como artefatos do CI.
 
-## 🧠 Observações Finais
+## Observações Finais
 
 Os testes em `tests/extension.spec.ts` verificam se a interface do popup da extensão é carregada corretamente.
 
@@ -71,7 +71,7 @@ Caso precise ajustar seletores ou elementos do teste, é possível personalizar 
 
 O projeto foi desenvolvido de acordo com os requisitos da Entrega II do Bootcamp, contemplando containerização e integração contínua.
 
-## 👨‍💻 Autor
+## Autor
 
 Feito por Gustavo Barbosa para o Bootcamp II.
 Meu GitHub: https://github.com/gustavob63
